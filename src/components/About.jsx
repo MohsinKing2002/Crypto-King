@@ -4,7 +4,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <Container maxW={"full"} background={"#02124c"}>
+    <Container py={"10"} maxW={"full"} background={"#02124c"}>
       <br />{" "}
       <Heading
         textAlign={"center"}

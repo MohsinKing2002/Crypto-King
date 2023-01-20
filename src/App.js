@@ -9,7 +9,7 @@ import Home from "./components/Home";
 
 const App = () => {
   return (
-    <div style={{ background: "aliceblue" }}>
+    <div>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />

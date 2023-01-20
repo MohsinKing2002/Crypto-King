@@ -5,7 +5,7 @@ import "../App.css";
 
 const Home = () => {
   return (
-    <Container background={"#02124c"} maxW={"full"}>
+    <Container height={"100vh"} background={"#02124c"} maxW={"full"}>
       <VStack p={"20"} h={"full"} justifyContent={"center"}>
         <motion.div
           className="anime-box"
