@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.brand{
+  transition: all 0.8s linear;
+}
+
+.chakra-text{
+  width: 40% !important;
+  margin: auto;
+  text-align: justify !important;
+}
+
+@keyframes anime {
+  0%{
+    color: aliceblue;
+  }
+  50%{
+    color: rgb(184, 108, 58);
+  }
+  100%{
+    color: rgb(68, 164, 36);
+  }
+}
+
+.brand:hover{
+  animation: anime 1s 0.2s infinite linear;
+}
+
+@media screen and (max-width: 600px) {
+  .anime-box{
+    height: auto !important;
+  }
+  .brand{
+    font-size: 20px !important;
+  }
+  .home-btn{
+    display: none !important;
+  }
+  .chakra-text{
+    width: 70% !important;
+  }
+}
