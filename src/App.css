@@ -4,6 +4,7 @@
 }
 
 .brand{
+  animation: anime 1s 0.3s infinite linear;
   transition: all 0.8s linear;
 }
 
@@ -15,18 +16,14 @@
 
 @keyframes anime {
   0%{
-    color: aliceblue;
+    color: rgb(170, 190, 208);
   }
   50%{
-    color: rgb(184, 108, 58);
+    color: rgb(84, 221, 86);
   }
   100%{
-    color: rgb(68, 164, 36);
+    color: rgb(165, 96, 47);
   }
-}
-
-.brand:hover{
-  animation: anime 1s 0.2s infinite linear;
 }
 
 @media screen and (max-width: 600px) {

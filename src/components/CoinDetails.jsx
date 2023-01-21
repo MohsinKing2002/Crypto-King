@@ -55,7 +55,7 @@ const CoinDetails = () => {
     <Loader />
   ) : (
     <Container background={"white"} maxW={"container.xl"}>
-      <Box width={"full"} p={"10"} m={"8"}>
+      <Box width={"full"} py={"5"} my={"8"}>
         <Heading
           mb={"6"}
           textAlign={"center"}
@@ -121,7 +121,7 @@ const CoinDetails = () => {
         />
       </VStack>
 
-      <Box w={"full"} p={"10"}>
+      <Box w={"full"} p={"4"}>
         <Item title={"Max Supply"} value={coin.market_data.max_supply} />
         <Item
           title={"Circulating Supply"}
